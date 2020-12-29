@@ -1,0 +1,232 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+html,body {
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+li {
+    float:left;
+    list-style: none;
+    padding:33px 20px;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    font-family: serif;
+}
+
+.header{
+    height:100px;
+    background-color:#000000;
+    color:#fff;
+    position:fixed;
+    opacity:0.8;
+    top:0;
+    z-index:10;
+    width:100%
+
+}
+
+.header a{
+    color:#fff;
+}
+
+.header-logo{
+    padding:20px 40px;
+    font-size:36px;
+}
+
+.header-logo {
+    float:left;
+}
+
+.header-list {
+    float:left;
+}
+
+.mgr-10{
+    margin-left : 30px;
+}
+
+
+.left-block{
+    width:50%;
+    margin:100px;
+}
+
+.left-block li{
+    display:none;
+}
+
+.left-block h1{
+    size:100px;
+}
+
+.right-block{
+    margin:100px;
+    width:50%;
+}
+
+video{
+    width:8%;
+}
+
+.flex-list{
+    display:flex;
+    padding-top:100px;
+}
+
+.flex-list p{
+    size:100px;
+}
+
+
+
+
+
+
+
+.text-contents{
+    display:none;
+}
+
+
+
+
+
+
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5983ff;
+    text-decoration: none;
+}
+
+
+
+.lesson-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    /* text-alignをcenterに指定してください */
+    text-align:center;
+}
+
+.heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+}
+
+.heading h2 {
+    font-weight: normal;
+}
+
+.lesson {
+    float: left;
+    width: 25%;
+}
+
+/* lesson-iconクラスのCSSを指定してください */
+.lesson-icon{
+    position:relative;
+}
+
+
+
+
+/* lesson-iconの中の<p>のCSSを指定してください */
+.lesson-icon p{
+    font-size:30px;
+    position:absolute;
+    top:90px;
+    width:100%;
+    color:rgb(255, 0, 251);
+    font-family: sans-serif;
+}
+
+
+/* txt-contentsクラスのCSSを指定してください */
+.txt-contents{
+    width:80%;
+    display:none;
+    margin-top:20px;
+    font-size:15px;
+    color:#b3aeb5;
+}
+
+.text-active{
+    display:inline-block;
+}
+  
+  
+
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+    color: #999;
+    background-color: #222;
+}
+
+.up-icon{
+    vertical-align: top;
+    text-align: center;
+    display: none;
+    background: rgba(0, 0, 0, 0.75);
+    width: 52px;
+    height: 52px;
+    padding-top: 13px;
+    border-radius: 50%;
+    color: #e3e3e3;
+    font-size: 24px;
+    margin: 0 15px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+  
+.social-icon {
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    background: rgba(94, 144, 255, 0.75);
+    width: 52px;
+    height: 52px;
+    padding-top: 13px;
+    border-radius: 50%;
+    color: #e3e3e3;
+    font-size: 24px;
+    margin: 0 15px;
+}
+
+.social-icon:hover{
+    color: #e3e3e3;
+    background-color: rgb(94, 144, 255);
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
+
+
+

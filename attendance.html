@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>勤怠管理OSUMIページ - Portfoliosumi</title>
+    <link rel="stylesheet" href="stylesheet4.css">
+    <!--<script type="text/javascript" src="s.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="s4.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="jquery.bgswitcher.js"></script>
+</head>
+
+<body>
+    <!-- ここからHTMLを書き始めてください -->
+    <div class="header">
+        <div class="header-logo" id="top-btn">Portfoliosumi</div>
+        <div class="header-list">
+            <ul>
+                <li><a href="main.html">TOP</a></li>
+                <li><a href="introduction.html">自己紹介</a></li>
+                <li><a href="conpetition.html">競技プログラミング</a></li>
+                <li><a href="attendance.html">勤怠管理OSUMI</a></li>
+                <li><a href="game.html">GREEN RESCUE</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <a href="#top"><span class="fa fa-angle-up up-icon"></span></a>
+
+    <div class="introduction" id="top">
+        <div class="container">
+            <div class="flex-list">
+                <div class="left-block">
+                    <h1>勤怠管理OSUMI</h1>
+                    <ul>
+                        <li class="text1"><a href="#atcoder">1.概要</a></li>
+                        <li class="text2"><a href="#past">2.きっかけ</a></li>
+                        <li class="text3"><a href="#icpc">3.苦労したところ</a></li>
+                        <li class="text4">↑クリックすると指定場所にスクロール</li>
+                    </ul>
+                </div>
+                <div class="right-block">
+                    <img src="07.png" alt="" class="text2">
+                </div>
+                
+            </div>
+            
+            
+
+        </div>
+    </div>
+
+    <div class="introduction" id="atcoder">
+        <div class="container">
+            <div class="flex-list">
+                <div class="left-block">
+                    <h1 class="text1">1.概要</h1>
+                    <ul>
+                        <li class="text1">開発期間、2ヶ月、個人開発</li>
+                        <li class="text1">使用言語、Python、HTML、CSS</li>
+                        <li class="text1">使用フレームワーク、Django、Bootstrap</li>
+                        <li class="text1">作成バージョン、「一人用」と「会社用」</li>
+                        <li class="text1">下のURLから一人用勤怠管理OSUMIが使えます。<br><a href="https://osumi.pythonanywhere.com/myapp/">勤怠管理OSUMI</a></li>
+                        <li class="text1">さらに下は「一人用勤怠管理OSUMI」の動画です。</li>
+
+                        
+                    </ul>
+                </div>
+                <div class="right-block">
+                    <video src="01.mp4" loop autoplay muted></video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="introduction" id="past">
+        <div class="container">
+            <div class="flex-list">
+                <div class="left-block">
+                    <h1 class="text2">2.きっかけ</h1>
+                    <ul>
+                        <li class="text2">2020年の9月にweb系自社開発企業で3週間ほど長期インターンをしました。インターンの選考方法が競技プログラミングの問題を解くことだったのがとても魅力的でした。</li>
+                        <li class="text2">しかし、インターンでは一人でwebアプリを作るという課題が出されました。HTMLもまともに触れなかった私ですがなんとか食らいついていきました。</li>
+                        <li class="text2">期間内にある程度作ったのですが自分が納得のいく成果物は得られませんでした。持ち帰って引き続き開発を始めたところから来ています。</li>                        
+                        <li class="text2">下はインターン期間内で作ったものの動画です。</li>
+                    </ul>
+                </div>
+                <div class="right-block">
+                    <video src="02.mp4" loop autoplay muted></video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="introduction" id="icpc">
+        <div class="container">
+            <div class="flex-list">
+                <div class="left-block">
+                    <h1 class="text3">3.苦労したところ</h1>
+                    <ul>
+                        <li class="text3">「一人用」はどんな人でも使えるようなUI/UXにしたところです。無駄な機能は省きシンプルな作りにしました。</li>
+                        <li class="text3">「会社用」は(管理者、一般人)権限回りに苦労しました。その権限でこの機能があるのはふさわしいかをよく考えました。</li>
+                        <li class="text3">下は「会社用勤怠管理OSUMI」の動画です。</li>
+                        
+                    </ul>
+                </div>
+                <div class="right-block">
+                    <video src="03.mp4" loop autoplay muted></video>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    
+
+    <div class="lesson-wrapper">
+        <div class="container">
+            <div class="heading">
+                <h2>コンテンツ一覧</h2>
+            </div>
+            <div class="lessons">
+                <div class="lesson lesson-hover">
+                    <div class="lesson-icon">
+                        <a href="introduction.html"><img src="https://img.atcoder.jp/icons/5e90b42b953ca5d6df9682dddb870fc2.jpg" width="250" height="250"></a>
+                        <a href="introduction.html"><p>自己紹介</p></a>
+                    </div>
+                    <p class="txt-contents">「プロフィ－ル」ページに進みます。彼が一体何者かはこれを見ればわかると思います。</p>
+                </div>
+                <div class="lesson lesson-hover">
+                    <div class="lesson-icon">
+                        <a href="conpetition.html"><img src="https://img.atcoder.jp/assets/top/img/logo_bk.svg" width="250" height="250"></a>
+                        <a href="conpetition.html"><p>競技プログラミング</p></a>
+                    </div>
+                    <p class="txt-contents">「競技プログラミング」ページに進みます。AtCoder、アルゴリズム実技検定、TechFUL、ICPCなど幅広く情報を載せています。</p>
+                </div>
+                <div class="lesson lesson-hover">
+                    <div class="lesson-icon">
+                        <a href="attendance.html"><img src="a01.png" width="250" height="250"></a>
+                        <a href="attendance.html"><p>勤怠管理OSUMI</p></a>
+                    </div>
+                    <p class="txt-contents">「勤怠管理OSUMI」ページに進みます。出勤、退勤の打刻、労働時間の測定、早退、遅刻、欠勤の判定などをしてくれ機能も豊富です。</p>
+                </div>
+                <div class="lesson lesson-hover">
+                    <div class="lesson-icon">
+                        <a href="game.html"><img src="a02.png" width="250" height="250"></a>
+                        <a href="game.html"><p>GREEN RESCUE</p></a>
+                    </div>
+                    <p class="txt-contents">「GREEN RESCUE」ページに進みます。緑ブロックを救出するゲームです。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+          <div class="follow-us">
+            <a href="https://github.com/osumi-kyopuro" class="social-icon" target='_blank'>
+              <span class="fa fa-github"></span>
+            </a>
+            <a href="https://twitter.com/osumi_kyopuro" class="social-icon" target='_blank'>
+              <span class="fa fa-twitter"></span>
+            </a>
+          </div>
+          <div class="copyright">©2021-
+            Portfoliosumi
+          </div>
+        </div>
+      </footer>
+
+
+</body>
+
+</html>
