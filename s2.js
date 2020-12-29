@@ -1,20 +1,20 @@
 $(function(){
-    $('.text1').fadeIn(1000);
+    $('.text1').fadeIn(500);
     setInterval(function() {
-        $('.text2').fadeIn(1000);
+        $('.text2').fadeIn(500);
+    }, 500);
+    setInterval(function() {
+        $('.text3').fadeIn(500);
     }, 1000);
     setInterval(function() {
-        $('.text3').fadeIn(1000);
+        $('.text4').fadeIn(500);
+    }, 1500);
+    setInterval(function() {
+        $('.text5').fadeIn(500);
     }, 2000);
     setInterval(function() {
-        $('.text4').fadeIn(1000);
-    }, 3000);
-    setInterval(function() {
-        $('.text5').fadeIn(1000);
-    }, 4000);
-    setInterval(function() {
-        $('.text6').fadeIn(1000);
-    }, 5000);
+        $('.text6').fadeIn(500);
+    }, 2500);
 
     $('.lesson-hover').hover(
         function() {

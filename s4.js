@@ -1,4 +1,6 @@
 $(function(){
+    
+
     $('.text1').fadeIn(1000);
     setInterval(function() {
         $('.text2').fadeIn(1000);
@@ -26,6 +28,8 @@ $(function(){
 
 
 */
+    
+    
     
     
     var topBtn = $('.up-icon');    
