@@ -1,0 +1,3 @@
+[submodule "jquery-bgswitcher"]
+	path = jquery-bgswitcher
+	url = https://github.com/rewish/jquery-bgswitcher.git
