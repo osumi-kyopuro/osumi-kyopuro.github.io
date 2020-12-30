@@ -29,6 +29,21 @@ $(function(){
         }
     );
 
+
+
+    $('.modal').click(function(){
+        var $answer=$(this).find('.header-list2');
+        if($answer.hasClass('open')){
+            $answer.removeClass('open');
+            $answer.slideUp();
+          
+        }
+        else{
+            $answer.addClass('open');
+            $answer.slideDown();
+        }
+    });
+
     var topBtn = $('.up-icon');    
     topBtn.hide();
     //スクロールが100に達したらボタン表示

@@ -16,6 +16,20 @@ $(function(){
         $('.text6').fadeIn(500);
     }, 2500);
 
+
+    $('.modal').click(function(){
+        var $answer=$(this).find('.header-list2');
+        if($answer.hasClass('open')){
+            $answer.removeClass('open');
+            $answer.slideUp();
+          
+        }
+        else{
+            $answer.addClass('open');
+            $answer.slideDown();
+        }
+    });
+
     $('.lesson-hover').hover(
         function() {
         // 子要素の「.text-contents」の要素を取得し、text-activeクラスをつけてください

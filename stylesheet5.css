@@ -7,6 +7,10 @@ form, input, div {
     padding: 0;
 }
 
+*{
+    box-sizing:border-box;
+}
+
 body {
     font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
 }
@@ -24,9 +28,7 @@ li {
 }
 
 .container {
-    width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
+    width: 100%;
     font-family: serif;
 }
 
@@ -77,14 +79,12 @@ li {
     size:100px;
 }
 
-.right-block{
+.right-block {
     margin:100px;
     width:50%;
 }
 
-video{
-    width:8%;
-}
+
 
 .flex-list{
     display:flex;
@@ -123,11 +123,11 @@ a:hover {
 
 
 .lesson-wrapper {
-    height: 500px;
     padding-bottom: 80px;
     background-color: #f7f7f7;
     /* text-alignをcenterに指定してください */
     text-align:center;
+    display:flex;
 }
 
 .heading {
@@ -153,6 +153,8 @@ a:hover {
 
 
 
+
+
 /* lesson-iconの中の<p>のCSSを指定してください */
 .lesson-icon p{
     font-size:30px;
@@ -167,14 +169,14 @@ a:hover {
 /* txt-contentsクラスのCSSを指定してください */
 .txt-contents{
     width:80%;
-    display:none;
-    margin-top:20px;
+    display:block;
+    margin:3% auto;
     font-size:15px;
-    color:#b3aeb5;
+    color:#f1f1f1;
 }
-
 .text-active{
-    display:inline-block;
+    display:block;
+    color:black;
 }
   
   
@@ -225,6 +227,138 @@ footer {
 
 .copyright {
     margin-top: 20px;
+}
+
+
+.modal{
+    float:right;
+    cursor: pointer;
+    color:black;
+    padding: 25px 0;
+    display:none;
+}
+
+.header-list2{
+    width:400px;
+    background-color:black;
+    top:0;
+    right:0;
+    opacity:1;
+    z-index: 100;
+    position: fixed;
+    display:none;
+}
+.header-list2 li{
+    font-size: 40px;
+}
+
+.fa-times{
+    float: right;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* タブレット向けレイアウト */
+@media (max-width: 1000px) {
+    .lesson-wrapper {
+        flex-wrap: wrap;
+        
+    }
+    .lesson{
+        width: 50%;
+    }
+
+    .header-list {
+        display:none;
+    }
+
+    .modal{
+        color:#fff;
+        display:block;
+    }
+
+    .header-list2{
+        width:400px;
+        background-color:black;
+        top:0;
+        right:0;
+        opacity:1;
+        z-index: 100;
+        position: fixed;
+        display:none;
+    }
+    .header-list2 li{
+        font-size: 40px;
+    }
+
+    .flex-list{
+        flex-direction:column;
+    }
+    .flex-list div{
+        margin:0 auto;
+    }
+    
+      
+      
+    
+}
+
+
+
+  
+
+@media (max-width: 670px) {
+    .lesson{
+        width:100%;
+    }
+      
+      /* <footer>の中身を中央寄せにしてください。 */
+    footer{
+        text-align:center;
+    }
+
+    .header-list {
+        display:none;
+    }
+
+    .modal{
+        color:#fff;
+        display:block;
+    }
+
+    .header-list2{
+        width:400px;
+        background-color:black;
+        top:0;
+        right:0;
+        opacity:1;
+        z-index: 100;
+        position: fixed;
+        display:none;
+    }
+    .header-list2 li{
+        font-size: 40px;
+    }
+
+    .flex-list{
+        flex-direction:column;
+    }
+    .flex-list div{
+        margin:0 auto;
+    }
+
+    .right-block{
+        width:100%;
+    }
+
+    
+    
 }
 
 
