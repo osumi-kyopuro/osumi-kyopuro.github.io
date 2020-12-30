@@ -358,6 +358,13 @@ footer {
     .flex-list div{
         margin:0 auto;
     }
+
+    .left-block{
+        width: 100%;
+    }
+    .right-block{
+        width:100%;
+    }
     
 }
 

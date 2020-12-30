@@ -314,6 +314,12 @@ li{
   
 
 @media (max-width: 670px) {
+    .left-block{
+        width: 100%;
+    }
+    .right-block{
+        width:100%;
+    }
     .lesson{
         width:100%;
     }
