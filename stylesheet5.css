@@ -79,9 +79,13 @@ li {
     size:100px;
 }
 
-.right-block {
+.right-block{
     margin:100px;
     width:50%;
+}
+
+.right-block img{
+    width:100%;
 }
 
 
