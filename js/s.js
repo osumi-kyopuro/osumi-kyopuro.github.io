@@ -1,7 +1,7 @@
 
 jQuery(function ($) {
     $('.box').bgSwitcher({
-        images: ['picture/05.png','picture/06.png','picture/07.png','picture/09.png','picture/08.png'], // 切り替える背景画像
+        images: ['../picture/05.png','../picture/06.png','../picture/07.png','../picture/09.png','../picture/08.png'], // 切り替える背景画像
         Interval: 5000, //切り替えの間隔 1000=1秒
         start: true, //$.fn.bgswitcher(config)をコールした時に切り替えを開始
         loop: true, //切り替えをループする
